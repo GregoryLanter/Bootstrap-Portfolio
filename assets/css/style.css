@@ -1,0 +1,283 @@
+/** *{
+    border-radius: 5px;
+    border: 1px solid blue
+}
+/** body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin:0px;
+}**/
+/**Style my Name Logo**/
+.Logo{
+    background-color: #4aaaa5;
+    width: 60%;
+    height: 90%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    left: 7%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+}
+/**Style my Links**/
+.links{
+    position: relative;
+    float: right;
+    padding-left: 20px;
+    top: 30%;
+    right:165px;
+    height:20px;
+}
+/**This gives me the pips like items between links**/
+.Left_Outline{
+    border-right: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #cccccc;
+}
+
+.box1{
+    background: #ffffff;
+    width: 66%;
+    position: relative;
+    /* left: 0%;
+    top: 0px; */
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+/**styling for the about me title**/
+.aboutMe{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    left: -20px;  
+}
+/**I know I should not use so much repeated code but didnt know how to stack classes so i repeated the code for each box**/
+.container1{
+    /* margin-left: 25px;
+    margin-right:25px;*/
+    margin: 25px;
+    height: 105px;
+    width: 125px;
+    background-image: url(../images/hangman.jpg);
+}
+.container2{
+    margin: 25px;
+    height: 105px;
+    width: 125px;
+    background-image: url(../images/RPG.jpg);
+}
+.container3{
+    margin: 25px;
+    height: 105px;
+    width: 125px;
+    background-image: url(../images/Trivia.jpg);
+}
+.container4{
+    margin: 25px;
+    height: 105px;
+    width: 125px;
+    background-image: url(../images/Rutger.jpg);
+}
+.container5{
+    margin: 25px;
+    height: 105px;
+    width: 125px;
+    background-image: url(../images/RPS.jpg);
+}
+/**one class for the banner across each image**/
+.banner{
+    height:25px;
+    width:125px;
+    background-color: #4aaaa5;
+    color: #cccccc;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    left: -1px;
+    display: block;
+    font-size: 13px;
+}
+/**Background image**/
+.old_Map{
+    background-image: url(../images/old_Map.png);
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    /**background-repeat: repeat;
+    background-size: cover;
+    background: #ffccff;
+    position: relative;
+    Top: -3px;**/
+}
+/**set the footer bottom**/
+.fixed-bottom{
+    background-color:#666666;
+    background-image: none;
+    height: 45px;
+}
+/**make the background white**/
+.container{
+    background-color: white;
+    background-image: none;
+}
+/**give me some space between items**/
+.contactBuffer{
+    margin-top: 15px;
+}
+/**
+Header{
+    background-color: #ffffff;    
+    border-bottom: solid;
+    border-color: #cccccc;
+    display: inline-block;
+    position: relative;
+    overflow: auto;
+    width: 960px;
+    height: 69px;
+}
+div{
+    width: 960px;
+    height: 518px;  
+}
+
+.image{
+    float: left;
+    position: relative;
+    top: 20px;
+}
+p{
+    float: left;
+    position: relative;
+    top: -15px;
+    left: 10px;   
+}
+
+.TextBox1{
+    height:180px;
+    width:66%;
+    padding-right:5px;
+    padding-left:5px;
+    position: relative;
+    top: 2px;
+}
+
+.TextBox2{
+    left: 0px;
+    width:96%;
+    padding-right: 5px;
+    padding-left:5px;
+}
+footer{
+    background: #666666;
+    height: 69px;
+    border-top: 5px;
+    border-right:0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    font-size: 10px;
+    margin: 0px;
+    position: relative;
+    top:-3px;
+}
+.footer_text{
+    font-size:10px;
+    color: #cccccc;
+    position: relative;
+    top:80%;
+    left:45%;
+    width:10px;
+}
+.Left_Outline{
+    border-right: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #cccccc;
+}
+.about-format{
+    padding-left:20px;
+    color: #cccccc;
+}
+section{
+    float: left;
+    position: relative;
+    left: 2px;
+    width: 94%;
+    color:#cccccc;
+}
+.Contact_Box{
+    background: #ffffff;
+    width: 63%;
+    position: relative;
+    left: 17%;
+    top: 35px;
+    height: 450px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 0px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cccccc;
+    font-size: 15px;
+}
+label{
+    display:block;
+    position: relative;
+    top: 10px;
+}
+.Contact_Spacer{
+    display: block;
+    position: relative;
+    height: 30px;
+    padding-bottom: 25px;
+    top:15px;
+}
+.button{
+    display:block;
+    position: relative;
+    top:145px;
+}
+.bin{
+    position: relative;
+    left: -25px;
+    top: 10px;
+    width:668px;
+    height: 105px;
+    margin-top: 10px;
+
+}
+.box2{
+    background: #ffffff;
+    width: 66%;
+    position: relative;
+    left: 17%;
+    top: 5px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+ **/
