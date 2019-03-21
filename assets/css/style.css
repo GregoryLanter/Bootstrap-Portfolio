@@ -74,18 +74,21 @@
     margin: 25px;
     height: 105px;
     width: 125px;
-    background-image: url(../images/hangman.jpg);
+    background-image: url(../images/nhl.png);
+    background-size: 125px, 103px;
+    background-repeat: no-repeat;
 }
 .container2{
     margin: 25px;
     height: 105px;
     width: 125px;
-    background-image: url(../images/RPG.jpg);
+    background-image: url(../images/bart.png);
 }
 .container3{
     margin: 25px;
     height: 105px;
     width: 125px;
+    padding-right: 0px;
     background-image: url(../images/trivia.jpg);
 }
 .container4{
