@@ -89,7 +89,8 @@
     height: 105px;
     width: 125px;
     padding-right: 0px;
-    background-image: url(../images/trivia.jpg);
+    background-image: url(../images/beer.jpg);
+    background-size: contain;
 }
 .container4{
     margin: 25px;
