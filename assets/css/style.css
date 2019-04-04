@@ -96,8 +96,10 @@
     margin: 25px;
     height: 105px;
     width: 125px;
-    background-image: url(../images/rutger.jpg);
+    background-image: url(../images/giphy.png);
+    background-size: contain;
 }
+
 .container5{
     margin: 25px;
     height: 105px;
