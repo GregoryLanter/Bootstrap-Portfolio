@@ -104,7 +104,8 @@
     margin: 25px;
     height: 105px;
     width: 125px;
-    background-image: url(../images/RPS.jpg);
+    background-image: url(../images/MTA.jpg);
+    background-size: contain;
 }
 /**one class for the banner across each image**/
 .banner{
